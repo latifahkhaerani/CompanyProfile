@@ -1,12 +1,34 @@
+import Navbar from "./components/container/Navbar/Navbar";
 import Hero from "./components/container/HeroSection";
+import Clients from "./components/container/Clients/Clients";
+import Result from "./components/container/Results";
+import Process from "./components/container/Process";
+import Features from "./components/container/Features";
+import Industries from "./components/container/Industries";
+import Portfolios from "./components/container/Portfolios";
+import Testimonials from "./components/container/Testimonials";
+import Faq from "./components/container/FAQ";
+import Form from "./components/container/Form";
+import Contact from "./components/container/Contact";
+import Footer from "./components/container/Footer/Footer";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl">code here</h1>
-      {/* example */}
+    <div className="font-quicksand bg-white dark:bg-black text-[#0A0D12] dark:text-[#FDFDFD]">
+      <Navbar />
       <Hero />
-    </>
+      <Clients />
+      <Result />
+      <Process />
+      <Features />
+      <Industries />
+      <Portfolios />
+      <Testimonials />
+      <Faq />
+      <Form />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
