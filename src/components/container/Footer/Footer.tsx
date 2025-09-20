@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialIcon } from "./SocialIcon";
+import { SocialIcon } from "../../ui/SocialIcon/SocialIcon";
 
 const Footer: React.FC = () => {
   return (

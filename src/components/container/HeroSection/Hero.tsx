@@ -42,11 +42,11 @@ const Hero = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-100 "></div>
         </div>
         {/* handphone on mobile */}
-        {/* <div className="md:hidden hidden dark:block hero-image w-[100%] absolute z-10 left-0 top-90 h-32">
+        <div className="md:!hidden hidden dark:block hero-image w-[100%] absolute z-10 left-0 top-90 h-32">
           <img src="/smartphonedark.png" alt="smartphone" />
-          <div className="absolute left-0 top-0 z-30 inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-50"></div>
-          <div className="absolute left-0 top-0 z-30 h-[100vh] inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-100"></div>
-        </div> */}
+          <div className="absolute left-0 top-0 z-30 h-0 inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-50"></div>
+          <div className="absolute left-0 top-0 z-30 h-100 inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-100"></div>
+        </div>
       </div>
     </section>
   );

@@ -29,9 +29,13 @@ const Clients = () => {
         />
       </div>
       {/*  mobile */}
-      {/* <div className="block md:block dark:sm:hidden md:hidden w-full h-24 mx-auto  "  >
-      <img className="grayscale" src="/trustedby-darkmobile.png" alt="mediapartner"/>
-    </div>  */}
+      <div className="hidden dark:block md:hidden md:dark:!hidden w-full h-24 mx-auto  ">
+        <img
+          className="grayscale"
+          src="/trustedby-darkmobile.png"
+          alt="mediapartner"
+        />
+      </div>
     </section>
   );
 };

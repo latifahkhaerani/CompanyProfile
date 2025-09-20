@@ -11,6 +11,7 @@ import Faq from "./components/container/FAQ";
 import Form from "./components/container/Form";
 import Contact from "./components/container/Contact";
 import Footer from "./components/container/Footer/Footer";
+import Modal from "./components/container/Popup";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
       <Testimonials />
       <Faq />
       <Form />
+      <Modal type={"success"} isOpen={false} onClose={function (): void {
+        throw new Error("Function not implemented.");
+      } } />
       <Contact />
       <Footer />
     </div>
