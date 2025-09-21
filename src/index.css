@@ -6,3 +6,9 @@
 @theme {
   --font-quicksand: "Quicksand", "sans-serif";
 }
+
+@layer components {
+  .page-wrapper {
+    @apply md:pl-35 md:pr-35 pr-4 pl-4;
+  }
+}

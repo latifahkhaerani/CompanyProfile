@@ -1,10 +1,8 @@
-import React from "react";
-
 const Portfolios = () => {
   return (
     // pemgbungkus section belum
-    <div className="mx-0.5 md:pb-20  md:pl-35 md:pr-35 place-items-center  ">
-      <h3 className="md:pt-20 pr-4 pl-4  tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5  ">
+    <div className="page-wrapper mx-0.5 md:pb-20 place-items-center  ">
+      <h3 className="md:pt-20 tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5  ">
         From Vision to Launch! Projects We’re Proud Of
       </h3>
       <p className="pr-1 pl-1 md:pr-0 md:pl-0 text-center text-sm md:text-lg font-medium leading-7 md:leading-8 text-[#717680] mb-4.5 ">

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Container from "../Container";
+import { useState } from "react";
 
 const tabs = [
   {
@@ -31,7 +30,7 @@ const SolutionSection = () => {
   return (
     <section className="mb-20 ">
       {/* title */}
-      <Container className="md:pt-20 md:pb-10 md:pl-0 md:ml-35">
+      <section className="page-wrapper md:w-[720px] md:pr-0 md:pt-20 md:pb-10 md:pl-0 md:ml-35">
         <h3 className="tittle font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5">
           Built for Your Industry
         </h3>
@@ -39,10 +38,10 @@ const SolutionSection = () => {
           We’ve helped companies across industries launch smarter, faster, and
           more securely.
         </p>
-      </Container>
+      </section>
 
       {/* container */}
-      <div className="grid md:grid-cols-[30%_70%] gap-6 pr-4 pl-4 md:pl-35 md:pr-35">
+      <div className="page-wrapper grid md:grid-cols-[30%_70%] gap-6">
         {/* SIDEBAR TABS */}
         <div className="space-y-4">
           {tabs.map((tab) => {

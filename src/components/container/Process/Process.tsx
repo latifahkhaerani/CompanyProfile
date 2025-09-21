@@ -1,9 +1,7 @@
-// import React from "react";
-
 import Card from "../../ui/Card";
-import Container from "../Container";
 
-/////segitiga di card belum bisa di klik
+/////segitiga di card ^ belum bisa di klik
+//MOBILE SECTION NYA BELUMMM😭😭😭😭🙏🏻 BIKIN DULU  pake map.
 
 const steps = [
   { title: "Discovery & Consultation", desc: "Understand Your Needs & Goals" },
@@ -22,9 +20,10 @@ const rightSteps = steps.filter((_, idx) => idx % 2 === 1);
 
 const Process = () => {
   return (
+    // DESKTOP SECTION
     <section className="hidden md:block place-items-center">
-      <div className="mx-0.5 md:pb-10  md:pl-35 md:pr-35 place-items-center ">
-        <h3 className="pt-20 pr-4 pl-4  tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 ">
+      <div className="mx-0.5 md:pb-10 place-items-center ">
+        <h3 className="pt-20 tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 ">
           Our Process
         </h3>
         <p className="pr-1 pl-1 md:pr-0 md:pl-0 text-center text-sm md:text-lg font-medium leading-7 md:leading-8  text-[#717680] mb-4.5 ">
@@ -32,8 +31,8 @@ const Process = () => {
         </p>
       </div>
 
-      <Container
-        className="grid grid-cols-[1fr_auto_1fr] gap-6 "
+      <section
+        className="page-wrapper md:w-[720px] md:pr-0 md:pl-0 grid grid-cols-[1fr_auto_1fr] gap-6 "
         style={{ width: "1000px" }}
       >
         {/* 1st column */}
@@ -74,8 +73,10 @@ const Process = () => {
             ></Card>
           ))}
         </div>
-      </Container>
+      </section>
     </section>
+
+    //MOBILE SECTION NYA BELUMMM
   );
 };
 

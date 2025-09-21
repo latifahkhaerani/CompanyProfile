@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Input from "../../ui/Input";
-import Container from "../Container";
 import Button from "../../ui/Button";
 import Modal from "../Popup";
 
@@ -40,14 +39,14 @@ const Form = () => {
   };
 
   return (
-    <div className="mx-0.5 md:pb-10 md:pl-35 md:pr-35 place-items-center">
-      <h3 className="md:pt-20 pr-4 pl-4 text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5">
+    <div className="mx-0.5 md:pb-10 place-items-center">
+      <h3 className="md:pt-20 text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5">
         Ready to Start? Let’s Talk.
       </h3>
       <p className="pr-1 pl-1 md:pr-0 md:pl-0 text-center text-sm md:text-lg font-medium leading-7 md:leading-8 text-[#717680] mb-4.5 ">
         Tell us what you need, and we’ll get back to you soon.
       </p>
-      <Container className="w-full">
+      <section className="page-wrapper md:w-[720px] md:pr-0 md:pl-0 w-full">
         <form onSubmit={handleSubmit}>
           {/* Input text */}
           <Input
@@ -90,7 +89,7 @@ const Form = () => {
             <Button className="w-full">Send</Button>
           </div>
         </form>
-      </Container>{" "}
+      </section>{" "}
       {/* render modal */}
       <Modal
         type={modalType === "success" ? "success" : "error"}

@@ -51,7 +51,7 @@ const data = [
 const Features = () => {
   return (
     <>
-      <div className="md:pl-35 md:pr-35 pr-4 pl-4">
+      <div className="page-wrapper">
         <div className="mx-0.5 place-items-center">
           <h3 className="md:mt-10 tittle text-center font-semibold md:font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 pt-20">
             Smart IT Solutions That Grow With You
