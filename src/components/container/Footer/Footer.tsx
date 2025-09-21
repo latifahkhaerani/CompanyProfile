@@ -64,10 +64,10 @@ const Footer: React.FC = () => {
           </h3>
         </div>
 
-        {/* GARIS */}
+        {/* LINE */}
         <hr className="my-6 bg-[#DFDFDF] dark:bg-[#252B37] h-px border-0" />
 
-        {/* MENU + SOSIAL */}
+        {/* MENU + SOCIAL */}
         <div className="pt-5 md:pt-12 flex flex-col md:flex-row md:justify-between md:items-baseline">
           {/* Menu */}
           <nav className="flex flex-col md:flex-row gap-6 md:gap-12">

@@ -26,7 +26,7 @@ const Faq = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
   return (
-    <section className="solution max-w-7xl mx-auto mb-20 md:pl-35 md:pr-35 pr-4 pl-4 pt-10 md:pt-0">
+    <section className="mb-20 md:pl-35 md:pr-35 pr-4 pl-4 pt-10 md:pt-0">
       <div className="md:pt-20 md:pb-10 md:flex md:justify-between md:items-baseline ">
         <h3 className="pr-4 pl-4  md:pr-0 md:pl-0 tittle  font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 text-left ">
           Need Help? Start <br className="hidden md:block" /> Here.
@@ -36,7 +36,7 @@ const Faq = () => {
           <br className="hidden md:block" /> know — all in one place.
         </p>
       </div>
-      <hr className=" mt-8 md:mt-0 bg-[#DFDFDF] dark:bg-[#252B37] h-px border-0  md:w-5xl mx-auto " />
+      <hr className="mt-8 md:mt-0 bg-[#DFDFDF] dark:bg-[#252B37] h-px border-0  md:w-5xl mx-auto" />
 
       <section className=" md:grid md:grid-cols-[65%_7%_30%] pt-5 md:pt-10">
         {/* left - faq list */}

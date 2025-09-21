@@ -29,7 +29,7 @@ const SolutionSection = () => {
   const [activeTab, setActiveTab] = useState("fintech");
 
   return (
-    <section className="solution max-w-7xl mx-auto mb-20 ">
+    <section className="mb-20 ">
       {/* title */}
       <Container className="md:pt-20 md:pb-10 md:pl-0 md:ml-35">
         <h3 className="tittle font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5">
@@ -42,7 +42,7 @@ const SolutionSection = () => {
       </Container>
 
       {/* container */}
-      <div className="max-w-7xl mx-auto grid md:grid-cols-[30%_70%] gap-6 pr-4 pl-4 md:pl-35 md:pr-35">
+      <div className="grid md:grid-cols-[30%_70%] gap-6 pr-4 pl-4 md:pl-35 md:pr-35">
         {/* SIDEBAR TABS */}
         <div className="space-y-4">
           {tabs.map((tab) => {

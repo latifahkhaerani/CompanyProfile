@@ -1,7 +1,4 @@
-// import React from "react";
 import Card from "../../ui/Card";
-
-// /////////***lebar card belum sesuai
 
 const data = [
   {
@@ -54,25 +51,26 @@ const data = [
 const Features = () => {
   return (
     <>
-      <div className="mx-0.5 md:pb-0  md:pl-35 md:pr-35 place-items-center">
-        <h3 className="pt-20 pr-4 pl-4 md:mt-10 tittle text-center font-semibold md:font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 ">
-          Smart IT Solutions That Grow With You
-        </h3>
-        <p className=" pr-0.9 pl-0.9  text-center text-sm md:text-lg font-medium leading-7 md:leading-8  text-[#717680]">
-          Tailored tech to boost efficiency, security, and results.
-        </p>
-      </div>
+      <div className="md:pl-35 md:pr-35 pr-4 pl-4">
+        <div className="mx-0.5 place-items-center">
+          <h3 className="md:mt-10 tittle text-center font-semibold md:font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 pt-20">
+            Smart IT Solutions That Grow With You
+          </h3>
+          <p className=" pr-0.9 pl-0.9 text-center text-sm md:text-lg font-medium leading-7 md:leading-8  text-[#717680]">
+            Tailored tech to boost efficiency, security, and results.
+          </p>
+        </div>
 
-      {/* card */}
-      <div className="relative max-w-7xl mx-auto grid md:grid-cols-3 md:grid-rows-3 gap-y-10 md:gap-y-15 gap-x-8 md:pl-35 md:pr-35 md:pt-15 pt-10 pb-20 md:pb-20 pr-4 pl-4   ">
-        {data.map((item) => (
-          <Card
-            title={item.title}
-            description={item.desc}
-            icon={<img src={item.icon} alt="icon-" className="w-16 h-16" />}
-            className={"md:pt-16 pt-12"}
-          />
-        ))}
+        {/* card */}
+        <div className="relative grid md:grid-cols-3 md:grid-rows-3 gap-y-10 md:gap-y-10 gap-x-5 md:pt-15 pt-10 pb-20 md:pb-20">
+          {data.map((item) => (
+            <Card
+              title={item.title}
+              description={item.desc}
+              icon={<img src={item.icon} alt="icon-" className="w-16 h-16" />}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

@@ -12,7 +12,7 @@ export default function Navbar() {
   }, [isDarkMode]);
 
   return (
-    <nav className="max-w-7xl mx-auto md:pl-0 md:pr-35 bg-white/40 backdrop-blur-sm dark:bg-black flex items-center justify-between w-full px-8 h-21 fixed z-20">
+    <nav className="md:pl-0 md:pr-35 bg-white/40 backdrop-blur-sm dark:bg-black flex items-center justify-between w-full px-8 h-21 fixed z-20">
       {/* Dark Mode Toggle */}
       <button
         onClick={() => setIsDarkMode(!isDarkMode)}

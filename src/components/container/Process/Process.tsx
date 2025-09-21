@@ -22,7 +22,7 @@ const rightSteps = steps.filter((_, idx) => idx % 2 === 1);
 
 const Process = () => {
   return (
-    <section className="hidden md:block  ourprocess max-w-7xl mx-auto ">
+    <section className="hidden md:block place-items-center">
       <div className="mx-0.5 md:pb-10  md:pl-35 md:pr-35 place-items-center ">
         <h3 className="pt-20 pr-4 pl-4  tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 ">
           Our Process

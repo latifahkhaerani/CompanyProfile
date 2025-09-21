@@ -3,7 +3,7 @@ import Button from "../../ui/Button";
 
 const Hero = () => {
   return (
-    <section className="hero max-w-7xl mx-auto">
+    <section>
       <div className="relative flex flex-row item-center  ">
         <div className="  w-[361px] md:w-[653px] z-10 absolute top-36 left-4 md:right-0 md:left-35">
           <h1 className=" text-4xl md:text-[56px] font-bold leading-11 md:leading-17 tracking-tight mb-2  ">

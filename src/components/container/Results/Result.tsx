@@ -23,7 +23,7 @@ const achievements = [
 const Result = () => {
   return (
     <>
-      <section className="features max-w-7xl mx-auto md:mb-20 pl-4 pr-4 ">
+      <section className="pl-4 pr-4 ">
         <div className="mx-0.5 md:pb-20 place-items-center ">
           <h3 className="pt-20 tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5 ">
             End-to-End IT Solutions That Drive Results

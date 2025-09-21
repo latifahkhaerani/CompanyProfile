@@ -13,7 +13,7 @@ const Card = ({ title, description, icon, className, style }: CardProps) => {
     <div
       className={`relative mx-auto bg-[#FAFAFA] dark:bg-[#0A0D12] 
         text-[#0A0D12] dark:text-[#FDFDFD] 
-        w-full h-auto p-6 gap-5 
+        w-full h-auto p-5 gap-5 pt-12
         rounded-2xl border border-[#DEDCDC] dark:border-[#181D27]
         ${className || ""}`}
       style={style}
@@ -23,7 +23,7 @@ const Card = ({ title, description, icon, className, style }: CardProps) => {
       )}
       <div>
         <h2 className="text-base md:text-xl font-bold leading-8 ">{title}</h2>
-        <p className="text-sm md:text-base font-medium leading-7 text-[#717680]">
+        <p className="gap-1 text-sm md:text-base font-medium leading-7 text-[#717680]">
           {description}
         </p>
       </div>

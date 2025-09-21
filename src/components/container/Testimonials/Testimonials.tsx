@@ -2,7 +2,7 @@
 
 const Testimonials = () => {
   return (
-    <div className="place-items-center pb-10 md:pb-0">
+    <div className="place-items-center pb-10 md:pb-0 md:mb-20">
       <h3 className="pt-20 pr-4 pl-4 tittle text-center font-bold text-2xl tracking-normal md:text-[40px] md:leading-14 mb-3.5">
         What Partners Say About Working With Us
       </h3>
@@ -29,7 +29,7 @@ const Testimonials = () => {
         />
       </div>
       {/* <!-- gambar dark mode --> */}
-      <div className=" hidden dark:block dark:flex md: flex-row md:justify-between mb-8  md:mt-10 p-0 ">
+      <div className="hidden dark:flex md:flex-row md:justify-between mb-8  md:mt-10 p-0 ">
         <img
           className="hidden md:block w-auto m-0 h-[350px] opacity-30 scale-90 transition-all"
           src="/partner1-dark.png"

@@ -15,7 +15,7 @@ import Modal from "./components/container/Popup";
 
 function App() {
   return (
-    <div className="font-quicksand bg-white dark:bg-black text-[#0A0D12] dark:text-[#FDFDFD]">
+    <div className="font-quicksand bg-white dark:bg-black text-[#0A0D12] dark:text-[#FDFDFD] max-w-7xl mx-auto w-full">
       <Navbar />
       <Hero />
       <Clients />
@@ -27,9 +27,13 @@ function App() {
       <Testimonials />
       <Faq />
       <Form />
-      <Modal type={"success"} isOpen={false} onClose={function (): void {
-        throw new Error("Function not implemented.");
-      } } />
+      <Modal
+        type={"success"}
+        isOpen={false}
+        onClose={function (): void {
+          throw new Error("Function not implemented.");
+        }}
+      />
       <Contact />
       <Footer />
     </div>
