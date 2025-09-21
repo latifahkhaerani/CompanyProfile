@@ -67,7 +67,8 @@ const Features = () => {
             <Card
               title={item.title}
               description={item.desc}
-              icon={<img src={item.icon} alt="icon-" className="w-16 h-16" />}
+              icon={<img src={item.icon} alt="icon-" className="w-16 h-16 " />}
+              className="pt-12"
             />
           ))}
         </div>
