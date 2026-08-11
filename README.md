@@ -1,6 +1,5 @@
 
 # Company Profile Website
-Deployment : https://company-profile-five-wine.vercel.app
 
 A responsive company profile website implemented from a Figma design using React, Vite, and Tailwind CSS. The project focuses on accurate UI implementation, reusable components, responsive layouts, and dark/light mode.
 
@@ -146,7 +145,7 @@ The application will be available at:
 
 ## Project Links
 
-- **Live Demo:** <your-live-demo-url>
+- **Live Demo:** https://company-profile-five-wine.vercel.app
 - **Repository:** <your-github-repository-url>
 - **Design Reference:** <your-figma-design-url>
 
