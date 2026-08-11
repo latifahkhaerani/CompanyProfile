@@ -1,125 +1,155 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/tXuzjvS0)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20484089&assignment_repo_type=AssignmentRepo)
-# Challenge 7 - Slicing Figma design into code with React Vite & Tailwindcss
+
+# Company Profile Website
 Deployment : https://company-profile-five-wine.vercel.app
-# Description
 
-In this assignment, you'll translate a provided Figma design into a functional webpage using React Vite and Tailwind CSS.
+A responsive company profile website implemented from a Figma design using React, Vite, and Tailwind CSS. The project focuses on accurate UI implementation, reusable components, responsive layouts, and dark/light mode.
 
-You'll be provided with a basic project setup, and your task will be to implement the design by writing components that reusable and utilizing Tailwind's classes.
+## Features
 
-The design for this assignment is located at the following Figma link:
+- **Responsive Design** — Mobile-first layout that adapts across different screen sizes.
+- **Figma-to-Code Implementation** — Translated the provided Figma design into a functional React interface.
+- **Dark/Light Mode** — Supports both dark and light themes for an improved user experience.
+- **Reusable Components** — Built modular and reusable components for different sections of the website.
+- **Responsive Layout** — Implemented responsive layouts using Tailwind CSS utilities.
+- **Design Accuracy** — Focused on matching the provided design's layout, spacing, typography, colors, and visual hierarchy.
+- **Component-Based Architecture** — Organized the interface into reusable UI and section-level components.
 
-[Figma Design Link](https://www.figma.com/design/SiIl1A1UdSOVLKrtMjgHD2/Company-Profile---Batch-4?node-id=8411-143671&t=wyqKMkBKZYGo958y-1)
+## Tech Stack
 
-The goal is to assess your ability to:
+- **Frontend Framework:** React
+- **Language:** TypeScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Design:** Figma
 
-- Interpret a design from Figma.
-- Create a reusable component
-- Structure a webpage with vite.
-- Apply styles using Tailwind CSS.
-- Create a responsive layout.
+## Project Structure
 
-# Folder Structure
+    src/
+    ├── components/
+    │   ├── container/          # Section and composite components
+    │   └── ui/                 # Reusable UI components
+    ├── App.tsx                 # Main application component
+    ├── index.css               # Global styles
+    └── main.tsx                # Application entry point
 
-You are provided with the following folder structure:
+    public/
+    └── assets/                 # Images, icons, fonts, and other static assets
 
-```
-root/
-  ├── node_modules/
-  ├── public/
-  ├── src/
-  │ ├── components/
-  │ │ ├── container/
-  │ │ └── ui/
-  │ └── App.tsx
-  │ └── index.css
-  │ └── main.tsx
-  ├── .gitignore
-  ├── eslint.config.js
-  ├── package-lock.json
-  ├── package.json
-  └── readme.md
-  └── tsconfig.app.json
-  └── tsconfig.json
-  └── tsconfig.node.json
-  └── vite.config.ts
-```
+## Key Implementation
 
-# Important file/folder to understanda
+### Figma-to-Code
 
-- public: all asset should go here, ex: images, icons, fonts
-- src: a folder for all of the source code
-- src/components: this folder is to create components that you can reuse
-- src/components/ui: this folder is for component that only return one HTML tag, like button, input, etc.
-- src/components/container: this folder is for component that have more than 1 component (ex: search bar = input and button), also you can create page section here
-- vite.config.ts: see this file for tailwind setup on vite
+The website was implemented based on a provided Figma design, translating the visual specifications into reusable React components.
 
-# Assignment Objectives
+The implementation focused on:
 
-- Figma to HTML: Accurately translate the Figma design into HTML. Create the necessary HTML elements to structure the page (divs, sections, headers, etc.).
-- Tailwind CSS Styling: Use Tailwind CSS classes to style the HTML elements. Pay close attention to:
-- Layout (Flexbox, Grid).
-- Spacing (padding, margin).
-- Typography (font sizes, weights, colors).
-- Colors and Backgrounds.
-- esponsive design (using Tailwind's responsive prefixes, e.g., md:, lg:).
-- Responsive Design: Ensure your implementation is responsive across different screen sizes, as defined in the Figma design. Use Tailwind's responsive modifiers.
-- Adherence to Design: Your final webpage should closely match the visual design provided in the Figma file.
+- Layout structure
+- Spacing and sizing
+- Typography
+- Colors
+- Responsive behavior
+- Component hierarchy
+- Visual consistency
 
-# Getting Started
+### Reusable Components
 
-Don't forget to run
+The interface is divided into reusable components to maintain a clean and maintainable codebase.
 
-```
-npm install
-```
+Components are organized into:
 
-for this project first, then to run the app, run
+- **UI Components** — Small reusable elements such as buttons and other interface elements.
+- **Container Components** — Composite components and larger page sections.
 
-```
-npm run dev
-```
+### Responsive Design
 
-on terminal
+The website follows a responsive, mobile-first approach using Tailwind CSS responsive utilities.
 
-Study the Figma Design: Open the Figma link and thoroughly examine the design. Understand the layout, spacing, colors, typography, and responsive behavior.
+The layout adapts to different screen sizes while maintaining:
 
-HTML Structure: Open the public/index.html file. Begin by structuring the page with HTML elements that mirror the design.
+- Consistent spacing
+- Responsive typography
+- Flexible layouts
+- Proper content hierarchy
+- Visual consistency with the original design
 
-Tailwind CSS: Use Tailwind CSS classes directly within your HTML elements to apply styles. For example:
+### Dark & Light Mode
 
-<div class="flex justify-center items-center">...</div>
+The application supports both dark and light themes, allowing users to switch between different visual modes while maintaining consistent design and readability.
 
-<h1 class="text-3xl font-bold text-blue-600">...</h1>
+## Design
 
-Test in the Browser: Run npm run dev to see it on your browser
+The interface was implemented based on the provided Figma design.
 
-Iterate: Continue to refine your HTML and Tailwind CSS until your webpage accurately matches the Figma design.
+Design considerations include:
 
-# Important Notes
+- Layout and spacing
+- Typography
+- Color system
+- Component consistency
+- Responsive behavior
+- Dark and light themes
 
-You can modify the folder structure only on src and public folder, don't change anything related to project setup
+## Getting Started
 
-Tailwind CSS Documentation: Refer to the official Tailwind CSS documentation (https://tailwindcss.com/docs) for information on available classes and how to use them.
+### Prerequisites
 
-Figma Inspection: Use the "Inspect" feature in Figma to get precise measurements, colors, and font styles from the design.
+Make sure you have the following installed:
 
-# Evaluation System
+- Node.js
+- npm
 
-The evaluation for this assignment will be based on the following criteria:
+### Installation
 
-1.  **Design Accuracy:** How accurately your implementation matches the design provided in Figma across different screen sizes.
-2.  **Reusable Component:** How you can split your code into readable and not a bunch of code in one single component
-3.  **Effective CSS Usage:** The correct and efficient use of CSS selectors, as well as understanding of basic CSS properties and _media queries_ (if responsiveness is implemented).
-4.  **Code Readability and Organization:** HTML and CSS code that is well-structured, easy to read, and commented where necessary.
+Clone the repository:
+
+    git clone <your-repository-url>
+
+Navigate to the project directory:
+
+    cd <repository-name>
+
+Install dependencies:
+
+    npm install
+
+### Run Development Server
+
+    npm run dev
+
+The application will be available at:
+
+    http://localhost:5173
+
+### Build for Production
+
+    npm run build
+
+### Preview Production Build
+
+    npm run preview
+
+## Available Scripts
+
+    npm run dev       # Start development server
+    npm run build     # Build the application for production
+    npm run preview   # Preview the production build
+
+## Project Highlights
+
+- Figma-to-code implementation
+- Responsive company profile interface
+- Dark/light mode
+- Reusable React components
+- Responsive layouts with Tailwind CSS
+- Component-based architecture
+- Attention to visual accuracy and design consistency
+
+## Project Links
+
+- **Live Demo:** <your-live-demo-url>
+- **Repository:** <your-github-repository-url>
+- **Design Reference:** <your-figma-design-url>
 
 ---
 
-# How to Upload your Challenge
-
-Check this module: [click this](https://orchid-clematis-3e4.notion.site/Panduan-Penggunaan-Git-Untuk-Upload-Assignment-e2d80a19b3684f5d8f1a4209dcf85445?pvs=73)
-
----
-
-🎉 Congratulations on working on this assignment! Utilize the _playground_ feature in Figma to help you understand how the design should look on various devices. Keep experimenting and don't hesitate to look for references if you encounter difficulties. You can definitely produce great work! 🚀 Keep up the spirit, cheers! 🎈
+Built with React, TypeScript, Vite, and Tailwind CSS.
