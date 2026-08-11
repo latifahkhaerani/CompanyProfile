@@ -147,7 +147,7 @@ The application will be available at:
 
 - **Live Demo:** https://company-profile-five-wine.vercel.app
 - **Repository:** <your-github-repository-url>
-- **Design Reference:** <your-figma-design-url>
+- **Design Reference:** https://www.figma.com/design/SiIl1A1UdSOVLKrtMjgHD2/Company-Profile---Batch-4?node-id=8411-143671&p=f
 
 ---
 
